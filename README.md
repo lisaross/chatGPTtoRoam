@@ -28,7 +28,12 @@ python chatgpt_to_roam.py
 
 ## Note
 
-The conversation link in Roam Research will take you back to the original conversation on the ChatGPT platform. You can use this link to continue the conversation in ChatGPT.
+The first link in the Roam Research page will take you back to the original conversation on the ChatGPT platform. You can use this link to continue the conversation in ChatGPT.
+
+## TODO
+
+* chats with the same name append to the same page - not sure I'll fix that. I should be making the names of my chats useful anyway.
+
 
 ## 🚨 Important Note 🚨
 

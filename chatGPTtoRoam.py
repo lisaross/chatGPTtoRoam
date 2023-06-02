@@ -1,5 +1,8 @@
 import json
 
+# Assign user name variable here
+user_name = "Lisa Ross"
+
 with open("conversations.json", "r") as read_file:
     data = json.load(read_file)
 
@@ -24,7 +27,7 @@ for conversation in data:
                     for part in content_parts:
                         block_string += part
 
-                    block_prefix = "[[Lisa Ross]]: " if author_role == 'user' else "[[ChatGPT]]: "
+                    block_prefix = f"[[{user_name}]]: " if author_role == 'user' else "[[ChatGPT]]: "
                     block_string = block_prefix + block_string
 
                     block_map[current_node] = {"string": block_string, "uid": current_node, "children": []}

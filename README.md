@@ -20,17 +20,15 @@ python chatgpt_to_roam.py
 
 6. Import the `roamimport.json` file into Roam Research. Please follow the official Roam Research documentation on how to import files into your database.
 
-![Import Screenshot Placeholder](./import_screenshot.png)
+![All Pages](./afterimport.jpeg)
 
 7. After importing, you will see each of your conversations as a separate page, with the questions and responses formatted as nested bullet points.
 
-![Conversation Screenshot Placeholder](./conversation_screenshot.png)
+![Single Page](./singlepage.jpeg)
 
 ## Note
 
 The conversation link in Roam Research will take you back to the original conversation on the ChatGPT platform. You can use this link to continue the conversation in ChatGPT.
-
-![Conversation Screenshot Placeholder](./conversation_screenshot.png)
 
 ## 🚨 Important Note 🚨
 

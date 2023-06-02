@@ -13,7 +13,7 @@ This script is designed to convert your chat history from [OpenAI's ChatGPT](htt
 4. Run the script using a Python interpreter. Ensure that you have the necessary permissions to read and write files in the directory where the script is located.
 
 ```python
-python chatgpt_to_roam.py
+python chatGPTtoRoam.py
 ```
 
 5. If the script runs successfully, it will generate a new file named `roamimport.json`. This file contains your ChatGPT conversations formatted for Roam Research import.

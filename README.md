@@ -18,6 +18,8 @@ python chatgpt_to_roam.py
 
 5. If the script runs successfully, it will generate a new file named `roamimport.json`. This file contains your ChatGPT conversations formatted for Roam Research import.
 
+![fixed for Roam](./json.png)
+
 6. Import the `roamimport.json` file into Roam Research. Please follow the official Roam Research documentation on how to import files into your database.
 
 ![All Pages](./afterimport.jpeg)
